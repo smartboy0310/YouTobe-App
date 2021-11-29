@@ -1,0 +1,38 @@
+.nav {
+   width: 100%;
+   max-width: 250px;
+   position: fixed;
+	left: 0;
+	z-index: 2000;
+	flex-shrink: 0;
+	height: calc(100vh - 86px);
+	padding: 30px 31px;
+	background-color: #fff;
+	overflow: auto;
+   transition: all 0.3s ease;
+   
+}
+.menu {
+   
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+   font-size: 16px;
+   line-height: 20px;
+   color: #898989;
+}
+.menu__item {
+   white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
+.menu__item + .menu__item {
+   border-top: 1px solid rgba(0,0,0,0.3);
+}
+.subscriptions-strong {
+   display: block;
+   margin-top: 30px;
+   font-size: 18px;
+   line-height: 23px;
+   color: #000;
+}

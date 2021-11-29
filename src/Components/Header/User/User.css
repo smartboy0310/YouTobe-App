@@ -1,0 +1,14 @@
+.user-list {
+   display: flex;
+   align-items: center;
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+.user-list__item {
+   margin: 0;
+   padding: 0;
+}
+.user-list__item + .user-list__item {
+   margin-left: 50px;
+}

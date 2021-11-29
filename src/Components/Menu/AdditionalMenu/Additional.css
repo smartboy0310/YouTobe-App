@@ -1,0 +1,13 @@
+.additionalmenu-list {
+   list-style-type: none;
+   margin: 0;
+   padding: 0;
+}
+.additionalmenu-list__item:nth-child(1) {
+   margin-top: 30px;
+}
+.additionalmenu-list__item {
+   display: flex;
+   align-items: center;
+   margin-bottom: 30px;
+}

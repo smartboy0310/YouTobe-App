@@ -1,0 +1,45 @@
+.homevideo-content {
+   height: calc(100vh - 85px);
+	overflow: auto;
+}
+.homevideo-content__list {
+   display: flex;
+   align-items: flex-start;
+   flex-wrap: wrap;
+   column-gap: 20px;
+   row-gap: 10px;
+   list-style: none;
+   width: 100%;
+   max-width: 1100px;
+   position: fixed;
+	right: 0;
+	z-index: 2000;
+	flex-shrink: 0;
+   height: calc(100vh - 85px);
+	overflow: auto;
+   margin: 0;
+   padding: 0;
+	background-color: #fff;
+   transition: all 0.3s ease;
+   overflow: auto;
+}
+.homevideo-content__item {
+   white-space: nowrap;
+	overflow: auto;
+	text-overflow: ellipsis;
+}
+.homevideo-content__images {
+   display: flex;
+   align-items: center;
+}
+.homevideo-content__image {
+   border-radius: 10px;
+}
+.homevideo-content__title {
+   margin: 0;
+   margin-left: 10px;
+   padding: 0;
+   white-space: nowrap;
+	overflow: auto;
+	text-overflow: ellipsis;
+}

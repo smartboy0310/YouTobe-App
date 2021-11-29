@@ -1,0 +1,15 @@
+.channelvideo-contol {
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   width: 1070px;
+}
+.channelvideo-content__list {
+   display: flex;
+   align-items: center;
+   list-style-type: none;
+   column-gap: 20px;
+   width: 1070px;
+   margin: 0;
+   padding: 0;
+}

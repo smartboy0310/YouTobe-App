@@ -1,0 +1,19 @@
+.channel {
+  
+      display: flex;
+      align-items: flex-start;
+      justify-content: space-between;
+      width: 100%;
+      max-width: 1100px;
+      position: fixed;
+      right: 0;
+      z-index: 2000;
+      flex-shrink: 0;
+      height: calc(100vh - 85px);
+      overflow: auto;
+      margin: 0;
+      padding: 0;
+      padding-bottom: 30px;
+      background-color: #fff;
+      transition: all 0.3s ease;
+}

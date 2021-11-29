@@ -1,0 +1,42 @@
+.singel-video {
+   display: flex;
+   align-items: flex-start;
+   justify-content: space-between;
+}
+.singel-video-info {
+   width: 1200px;
+}
+.singel-video__span {
+   margin-right: 600px;
+}
+.like-btn,
+.dislike-btn,
+.share-btn {
+   margin-right: 45px;
+}
+.singel-video__blok {
+   margin-bottom: 30px;
+}
+.singel-video__channel {
+   width: 1100px;
+   display: flex;
+   align-items: flex-start;
+}
+.user-img {
+   margin-right: 20px;
+}
+.user-info {
+   width: 700px;
+  
+}
+.user-name {
+   display: block ;
+  
+}
+.subscribe-btn {
+   padding: 10px;
+   color: #fff;
+   border: none;
+   background-color: #FF0000;
+   border-radius: 20px;
+}
